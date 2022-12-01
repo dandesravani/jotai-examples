@@ -54,7 +54,7 @@ const TodoItem = ({ atom, remove }: TodoItemProps) => {
 const Filter = () => {
   const [filter, set] = useAtom(filterAtom)
   return (
-    <RadioGroup onChange={e => set(e.target.value)} value={filter}>
+    <RadioGroup onChange={set} value={filter}>
       <Radio value="all"> All </Radio>
       <Radio value="completed"> Completed </Radio>
       <Radio value="incompleted"> Incompleted </Radio>
