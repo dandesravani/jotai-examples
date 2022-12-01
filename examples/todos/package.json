@@ -1,0 +1,36 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "Record your todo list by typing them into this app, check them if you have completed the task, and switch between Completed and Incompleted to see the status of your task",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@react-spring/web": "^9.5.5",
+    "antd": "^5.0.3",
+    "framer-motion": "^7.6.15",
+    "jotai": "^1.10.0",
+    "next": "^13.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
